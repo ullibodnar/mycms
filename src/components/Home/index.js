@@ -1,8 +1,15 @@
 import React from 'react'
 
+import { CardPaper } from '../global-styled-components'
+import Navigation from '../Navigation'
+
 const Home = () => (
   <div>
-    <h1>Home</h1>
+    <Navigation />
+    <CardPaper>
+      <h3>Survey</h3>
+      <p>Go to dashboard</p>
+    </CardPaper>
   </div>
 )
 

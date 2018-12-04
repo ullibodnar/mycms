@@ -5,7 +5,7 @@ import { SIGN_IN } from '../../constants/routes'
 
 const Landing = () => (
   <div>
-    <h1>MyCMS</h1>
+    <h3>Welcome.</h3>
     <p>
       Please <Link to={SIGN_IN}>sign in</Link>.
     </p>

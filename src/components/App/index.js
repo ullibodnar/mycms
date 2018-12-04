@@ -19,11 +19,11 @@ import {
   SIGN_UP
 } from '../../constants/routes'
 
+import { APP_NAME } from '../../constants/text'
+
 const App = () => (
   <Router>
     <Fragment>
-      <h1>App</h1>
-
       <Route exact path={LANDING} component={LandingPage} />
       <Route path={SIGN_UP} component={SignUpPage} />
       <Route path={SIGN_IN} component={SignInPage} />
